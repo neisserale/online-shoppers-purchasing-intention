@@ -1,0 +1,26 @@
+[project]
+name = "online-shoppers-purchasing-intention"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lightgbm>=4.6.0",
+    "matplotlib>=3.7,<3.11",
+    "missingno>=0.5.2",
+    "numpy>=1.24,<2.0",
+    "optuna>=4.8.0",
+    "pandas>=2.0,<3.0",
+    "pyarrow>=23.0.1",
+    "scikit-learn>=1.3,<1.8",
+    "seaborn>=0.13,<0.14",
+    "setuptools<70",
+    "shap>=0.49.1",
+    "sweetviz==2.3.1",
+    "xgboost>=3.2.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
